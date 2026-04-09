@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { ShieldCheck, Ruler, Truck, Award } from "lucide-react";
 
+const factoryImage = new URL("../../../Varios/varios1.png", import.meta.url).href;
+
 const features = [
   { icon: Ruler, label: "Diseño y planificación", desc: "Cada pieza diseñada a medida según los requerimientos del proyecto" },
   { icon: ShieldCheck, label: "Control de calidad", desc: "Empaque y etiquetado con normas y técnicas venezolanas" },
@@ -12,18 +14,19 @@ export default function FactorySection() {
   return (
     <section className="py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center lg:items-stretch">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            className="h-full"
           >
-            <div className="relative rounded-2xl overflow-hidden">
+            <div className="relative h-full min-h-[320px] overflow-hidden rounded-2xl lg:min-h-[560px]">
               <img
-                src="https://media.base44.com/images/public/69d721331065ff0ac720e9c1/b30455771_generated_26e122bd.png"
+                src={factoryImage}
                 alt="Planta de fabricación Expand International"
-                className="w-full aspect-[16/10] object-cover"
+                className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 bg-black/40 backdrop-blur-sm rounded-xl p-4">
