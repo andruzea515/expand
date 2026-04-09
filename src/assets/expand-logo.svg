@@ -1,0 +1,10 @@
+<svg width="488" height="220" viewBox="0 0 488 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="488" height="220" fill="white"/>
+  <path d="M105 33H140L189 110L140 187H105L154 110L105 33Z" fill="#355E9C"/>
+  <path d="M145 33H180L229 110L180 187H145L194 110L145 33Z" fill="#6FA6D8"/>
+  <text x="38" y="128" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="900">E</text>
+  <text x="230" y="128" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="900">PAND</text>
+  <rect x="204" y="139" width="130" height="5" rx="2.5" fill="#6A90D1"/>
+  <text x="205" y="182" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500" letter-spacing="0.5">INTERNATIONAL</text>
+  <text x="466" y="162" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">®</text>
+</svg>
